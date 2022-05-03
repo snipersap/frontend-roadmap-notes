@@ -1,6 +1,10 @@
 # frontend-roadmap-notes
 As I go through the frontend roamap at my own pace, this repo will contain my notes on the topic. 
 
+# Table of contents
+## 1. [Project goals](#project-goals-1)
+## 2. [DNS and how it works?](#dns-and-how-it-works)
+
 
 # Project goals [^1]
 
@@ -18,7 +22,7 @@ As I go through the frontend roamap at my own pace, this repo will contain my no
 6. Ensure I can devliver a better performance in managing sap and non-sap teams.
 
 ## 3. What needs to be done, and in what order, to reach my goals?
-> As a side note, your goals are not necessarily set in stone. They evolve over time even in the course of the project, especially if you run across unexpected obstacles or just change your mind.
+> As a side note, your goals are not necessarily set in stone. They evolve over time even in the course of the project, especially if you run across unexpected obstacles or just change your mind. [^1]
 
 1. Understand frontend development
     1. Follow the roadmap at [roadmap.sh](https://roadmap.sh/frontend)
@@ -42,4 +46,10 @@ The above is a rough plan to go through the journey of understanding frontend de
 
 *Note:* The above plan was started in Trello (by Attlassian) and was moved to GitHub to practice markdown and get acquainted with GitHub features. 
 
-[^1]: Reference: [How do I start to design my website?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
+[^1]: [How do I start to design my website?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
+
+
+# DNS and how it works
+[Diagram: How DNS works?](/DNS%20-%20Frontend%20Roadmap.pdf) [^2]
+
+[^2]: Example of markdown for relative URLs in GitHub.
