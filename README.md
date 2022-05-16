@@ -53,3 +53,20 @@ The above is a rough plan to go through the journey of understanding frontend de
 [Diagram: How DNS works?](/DNS%20-%20Frontend%20Roadmap.pdf) [^2]
 
 [^2]: Example of markdown for relative URLs in GitHub.
+
+# History of the web
+* 1960s - ARPANET by US military - first implementation of TCP/IP protocol(s).
+* 1980s - Tim Berners-Lee - wrote notebook program ENQUIRE - contained concept of links between different nodes.
+* 1989 - TimBL wrote down _Information Management - A Proposal_ and _HyperText_ at CERN.
+* 1990 - TimBL had created HTTP, HTML, Web browser called WorldWideWeb, HTTP server and few web pages.
+* 1994 - World Wide Web COnsortium was created by TimBL
+
+# Web Standards
+Agreed to be kept free to ==contribute and use==.
+* [HTML Living Standard](https://html.spec.whatwg.org/multipage/) - describes how HTML should be ideally implemented.
+
+# Standard bodies
+* [W3C](https://www.w3.org/Consortium/facts) - World Wide Web Consortium: creates web tech specs.
+* [WHATWG](https://whatwg.org/faq) - Web Hypertext Application Technology Working Group: maintains the HTML Living Standard.
+* [ECMA](https://en.wikipedia.org/wiki/Ecma_International) - European Computer Manufacturers Association: publishes standard for ECMAScript (javascrpipt is based on it).
+* [Khronos](https://www.khronos.org/about) - creates royalty free graphics standards such as OpenGL, WebGL, OpenXR, etc.
