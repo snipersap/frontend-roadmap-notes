@@ -57,12 +57,13 @@ The above is a rough plan to go through the journey of understanding frontend de
 # History of the web
 * 1960s - ARPANET by US military - first implementation of TCP/IP protocol(s).
 * 1980s - Tim Berners-Lee - wrote notebook program ENQUIRE - contained concept of links between different nodes.
-* 1989 - TimBL wrote down _Information Management - A Proposal_ and _HyperText_ at CERN.
+* 1989 - TimBL wrote down *Information Management - A Proposal* and *HyperText* at CERN.
 * 1990 - TimBL had created HTTP, HTML, Web browser called WorldWideWeb, HTTP server and few web pages.
 * 1994 - World Wide Web COnsortium was created by TimBL
 
 # Web Standards
-Agreed to be kept free to ==contribute and use==.
+Agreed to be kept free to **contribute and use**. Try to *not break the web*, i.e. standards should be backwards compatible and forwards compatible (future tech should be compatible with current tech).
+
 * [HTML Living Standard](https://html.spec.whatwg.org/multipage/) - describes how HTML should be ideally implemented.
 
 # Standard bodies
@@ -70,3 +71,39 @@ Agreed to be kept free to ==contribute and use==.
 * [WHATWG](https://whatwg.org/faq) - Web Hypertext Application Technology Working Group: maintains the HTML Living Standard.
 * [ECMA](https://en.wikipedia.org/wiki/Ecma_International) - European Computer Manufacturers Association: publishes standard for ECMAScript (javascrpipt is based on it).
 * [Khronos](https://www.khronos.org/about) - creates royalty free graphics standards such as OpenGL, WebGL, OpenXR, etc.
+
+> Markdown does not support opening links on a new page or tab. To open links on a new page, use: 
+`<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>`
+
+# Modern web tech - overview
+## Browsers
+Software programs used by humans to consume the content on the web (besides other ways like using assistive tech like screenreaders).
+## HTTP
+Messaging protocol used by browsers to communicate with the web servers.
+## HTML, CSS, Javascript
+* HTML - wrap your content to provide meaning and structure to it.
+* CSS - Style the HTML content based on rules such as adding borders or font colors, etc.
+* Javascript - add interactivity to the web page (HTML and CSS).
+
+## Tooling
+* dev tools - common in most modern web browsers to debug code.
+* test tools - to test the web code that it behaves as intended.
+* Linters - code styler such as pretty print in ABAP (from SAP) - linters highlight where the code has not followed some coding guidelines.
+* Minifiers - remove the whitespace in the code and reduce the download size of the web pages. Results in web browsers downloading content faster and web servers able to serve content faster than non-Minified code. 
+## Server-side languages and frameworks 
+While HTML, CSS and Javascript run on the front-end or the werb broweser, other languages such as PHP, Python, ASP.net, NodeJS etc run on the web servers to produce the content sent to the front-end. Typical use case is to query data from a database and modify it before sending to front-end. Front-end languages are also called client-side languages. 
+
+# Web best practices
+## Uncertainties
+* User 1 might be looking at it on an iPhone, with a small, narrow screen.
+* User 2 might be looking at it on a Windows laptop with a widescreen monitor attached to it.
+* User 3 might be blind, and using a screenreader to read the web page out to them.
+* User 4 might be using a really old desktop machine that can't run modern browsers.
+
+## Best practices
+1. Cross-browser compatibility
+2. Responsive web design
+3. Performance
+4. Accessibility
+5. Internationalization
+6. Privacy and Security
